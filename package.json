@@ -26,7 +26,6 @@
   },
   "dependencies": {
     "hoek": "4.1.x",
-    "vasync": "1.6.x",
     "wreck": "12.2.x"
   }
 }
