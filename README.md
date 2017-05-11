@@ -1,6 +1,8 @@
 # cmon-client
 CMON client module
 
+[![Build Status](https://travis-ci.org/geek/cmon-client.svg?branch=master)](https://travis-ci.org/geek/cmon-client)
+
 ## Usage
 
 ```javascript
