@@ -138,7 +138,8 @@ time_of_day 1494359254881`);
 
       cmon.metrics('127', (err, results) => {
         expect(err).to.not.exist();
-        expect(results).to.contain('HELP');
+        expect(results.length).to.equal(15);
+        expect(results[0].name).to.equal('net_agg_packets_in');
         done();
       });
     });

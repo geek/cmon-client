@@ -25,6 +25,7 @@
     "lab": "13.x.x"
   },
   "dependencies": {
+    "exposition": "1.x.x",
     "hoek": "4.1.x",
     "wreck": "12.2.x"
   }

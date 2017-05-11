@@ -54,4 +54,4 @@ Retrieve all available containers running on the configured datacenter. `cb` has
 
 ### metrics(vm_uuid, cb)
 
-Retrieve the current available metrics for a running container specified by `vm_uuid`. `cb` has the signature `(err, metrics)` where metrics is a string of [exposition text-formatted](https://prometheus.io/docs/instrumenting/exposition_formats/#text-format-details) prometheus metrics.
+Retrieve the current available metrics for a running container specified by `vm_uuid`. `cb` has the signature `(err, metrics)` where metrics is an object representation of [exposition text-formatted](https://prometheus.io/docs/instrumenting/exposition_formats/#text-format-details) prometheus metrics using the [exposition module](https://www.npmjs.com/package/exposition).
