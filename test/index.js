@@ -127,7 +127,7 @@ zfs_available 26843250176
 time_of_day 1494359254881`);
     };
 
-    server.route({ method: 'get', path: '/v1/metrics', handler });
+    server.route({ method: 'get', path: '/metrics', handler });
     server.start((err) => {
       expect(err).to.not.exist();
       const cmon = new CMon({
