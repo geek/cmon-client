@@ -11,7 +11,7 @@ const CMonClient = require('cmon-client');
 const cmonClient = new CMonClient({
   key: '' // string or buffer version of tls key
   cert: '' // string or buffer version of tls cert
-  datacenter 'cmon.us-sw-1.zone:9163' // datacenter to use for client instance
+  datacenter: 'cmon.us-sw-1.zone:9163' // datacenter to use for client instance
 });
 
 cmonClient.discover((err, containers) => {

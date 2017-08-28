@@ -1,6 +1,5 @@
 'use strict';
 
-const Code = require('code');
 const Hapi = require('hapi');
 const Lab = require('lab');
 const CMon = require('../');
@@ -11,7 +10,7 @@ const CMon = require('../');
 const lab = exports.lab = Lab.script();
 const describe = lab.describe;
 const it = lab.it;
-const expect = Code.expect;
+const expect = lab.expect;
 
 
 const internals = {

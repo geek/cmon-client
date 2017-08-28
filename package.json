@@ -19,13 +19,12 @@
   },
   "homepage": "https://github.com/geek/cmon-client#readme",
   "devDependencies": {
-    "belly-button": "3.x.x",
-    "code": "4.x.x",
+    "belly-button": "4.x.x",
     "hapi": "16.x.x",
-    "lab": "13.x.x"
+    "lab": "14.x.x"
   },
   "dependencies": {
-    "exposition": "1.x.x",
+    "exposition": "1.1.x",
     "hoek": "4.1.x",
     "wreck": "12.2.x"
   }
